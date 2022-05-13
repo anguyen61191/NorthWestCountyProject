@@ -16,6 +16,46 @@ The main data set used was, King County Housing Data, collected from 2014 to 201
 
 The second data set, Zipcodes for King County and Surrounding Area, includes location data for King County. This data set was used for mapping purposes.
 
+<br>
+
+## **Methodology & Results**
+
+1. Our first best model approach was an iterative approach. We first found the highest correlation feature to **Price** which was **Grade**. We than used high correlation with other features, high p-value, and recurive feature elimination to to find the best model. 
+2. Our second model we OneHotEncoded Zipcode to make them categories and slowly removed features that had a high p-value and than removed features with high VIF to find the best model.
+
+3. We ran both models through three validation test: Train-test, Cross Validation, and Shuffle-Split.  Than we ran them through assumption test such as Linear Assumption, Normality and homoscedasticity.
+
+<br>
+
+## **Statistical Analysis**
+<br>
+
+### **House Grade**
+
+![](Images/PriceperGradeHouse.png)
+<br>
+The graph shows that as you increase in the grade of the house the sales price of the house increases. The line on the bar graphs shows that the greatest increase in price per grade increase occurs between 7 and 10 where the line tapers of after 10. It is reccomended that the developer build houses within this range
+
+<br>
+
+### **Location**
+
+
+
+![](Images/GeoZipcode_map.PNG)
+
+As you can see by the heat map above the average housing price is significantly impacted by the location where housing price near the center of the city on average cost way more than housing prices on the outskirts of the city. The zipcodes with the highest averages are 98039, 98040, 98004,98005, which are shown as the dark purple areas. 
+
+
+<br>
+
+### **Square foot size**
+
+![](Images/SquareftlivingvsPrice.png)
+
+The graph shows that there is a linear relationship between Square Foot Living and Price. The most dense area's of the graph seem to be along the best fit line. We reccomend building houses between 1,600 to 3,300 square feet which are high density areas on the graph but also coincide with grade 7 to 10.
+
+<br>
 
 ## **Conclusions**
 1. **Square foot** living has a good correlation with pricing.  Data shows that a good size ranges between 1600 - 3300 square feet.  Where each square foot increases value by $90.
@@ -29,5 +69,25 @@ The second data set, Zipcodes for King County and Surrounding Area, includes loc
 2. **Cost of building and anymore development information** would help build a better model and add a cost - profit analysis.
 3. More **Data** would be very important.  The data set given was only for 2 years and while it built a decent model it could be better if the data was over a longer period of time.
 
-## **Keynotes**
-* Some important notes I found while doing this was if more time given a better model would have been able to be developed.  Some categories weren't included into the model because of time constraints that I would have loved to get into.  I would have also liked to add more data sets into the data we have to create a more robust model.  Some interesting factors I thought of were school districts, local parks, and areas where events are hosted occur.  This would be fun to look into if more time was alloted.
+## **Contact Info**
+Email:
+- Andy Nguyen: anguyen61191@gmail.com
+
+- Xibei (Julian) He: julianhe1991@gmail.com
+
+- Juliet Day: julietday422@gmail.com
+
+Linkedin: 
+- Andy Nguyen: https://www.linkedin.com/in/anhduy-nguyen-217402149/
+
+- Xibei (Julian) He: https://www.linkedin.com/in/xibeihe/
+
+- Juliet Day: https://www.linkedin.com/in/julietday/
+
+Github:
+
+- Anhduy Nguyen [github](https://github.com/anguyen61191)
+
+- Xibei (Julian) He [github](https://github.com/JulianHe1991)
+
+- Juliet Day [github](https://github.com/julietday422)
