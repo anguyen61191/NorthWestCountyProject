@@ -2,6 +2,7 @@
 **Data Scientist:**  Anhduy(Andy) Nguyen, Juliet Day, Xibei(Julian) He <br>
 **Date:** May 13, 2022
 
+![](https://images.skyscrapercenter.com/uploads/Bellevue_Downtown-2019_(CC__BY-SA)SounderBruce210122-030120.jpg)
 ## **Business Understanding**
 A real estate developer has expressed interest in developing real estate in the King County, WA area. They have come to us as a team of trained data scientists to recommend an optimized real estate development strategy on the kind of houses they should build and in what areas. This analysis will use different statistical analysis tools including, but not limited to, multiple linear regression, shuffle split validation, cross-validation and OneHotEncoder to find what attributes of a house contribute the most to the house’s value, therefore yielding the highest revenue for the developers.
 
